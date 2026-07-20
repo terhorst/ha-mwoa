@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to YNAB",
+        "description": "Enter a personal access token and the plan to monitor.",
+        "data": {
+          "access_token": "Personal access token",
+          "plan_id": "Plan ID (or last-used)",
+          "match_terms": "Merchant match terms (comma separated)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to YNAB",
+      "invalid_auth": "The personal access token is invalid"
+    },
+    "abort": {
+      "already_configured": "This YNAB plan is already configured",
+      "cannot_connect": "Unable to connect to YNAB"
+    }
+  }
+}

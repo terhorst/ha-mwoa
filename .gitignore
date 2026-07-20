@@ -1,0 +1,15 @@
+# Never publish Home Assistant credentials or local configuration.
+secrets.yaml
+configuration.yaml
+.storage/
+home-assistant_v2.db*
+home-assistant.log*
+
+# Python/editor artifacts.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.DS_Store
+.idea/
+.vscode/

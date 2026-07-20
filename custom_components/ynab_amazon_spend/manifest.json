@@ -1,0 +1,12 @@
+{
+  "domain": "ynab_amazon_spend",
+  "name": "YNAB Amazon Spend",
+  "codeowners": ["@terhorst"],
+  "config_flow": true,
+  "documentation": "https://github.com/terhorst/ha-mwoa",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/terhorst/ha-mwoa/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
